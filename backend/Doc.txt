@@ -1,0 +1,18 @@
+- Instalando projeto
+npm init -y
+- Instalando roteamento
+npm install express
+- Instalando Nodemon
+npm install nodemon -D
+- instalando SqlLite3
+npm install sqlite3
+- Instalando o knex
+npm install knex
+- Iniciando Knex
+npx knex init
+- Criando a migration
+npx knex migrate:make create_<nome da tabela>
+- Criando a tabela
+npx knex migrate:letest
+- Verificando Status das migrations
+npx knex migrate:status
